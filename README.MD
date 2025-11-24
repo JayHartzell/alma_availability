@@ -3,8 +3,9 @@
 A lightweight web component for displaying real-time item availability from Ex Libris Alma.
 
 ## Resources
-[SRU Developer's Network Documentation](https://developers.exlibrisgroup.com/alma/integrations/sru/)
-[How to Configure the SRU Integration Profile and Structure SRU Retrieval Queries](https://developers.exlibrisgroup.com/blog/how-to-configure-the-sru-integration-profile-and-structure-sru-retrieval-queries/)
+- [SRU Developer's Network Documentation](https://developers.exlibrisgroup.com/alma/integrations/sru/)
+
+- [How to Configure the SRU Integration Profile and Structure SRU Retrieval Queries](https://developers.exlibrisgroup.com/blog/how-to-configure-the-sru-integration-profile-and-structure-sru-retrieval-queries/)
 
 ## Libguides Quick Start
 
