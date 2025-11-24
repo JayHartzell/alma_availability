@@ -59,9 +59,9 @@ Download the *alma-availability.js* file and save it somewhere.
 | Attribute | Description |
 |-----------|-------------|
 | `base-url` | Your Alma domain |
-| `library-code` | Your institution's library code |
-| `mms-id` | Bibliographic record ID from Alma |
-| `location-code` | Location code for the item | 
+| `library-code` | Your institution code |
+| `mms-id` | The MMS_ID for the bib record |
+| `location-code` | Location code | 
 
 ## Styling
 
