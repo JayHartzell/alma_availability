@@ -7,6 +7,14 @@ A lightweight web component for displaying real-time item availability from Ex L
 
 - [How to Configure the SRU Integration Profile and Structure SRU Retrieval Queries](https://developers.exlibrisgroup.com/blog/how-to-configure-the-sru-integration-profile-and-structure-sru-retrieval-queries/)
 
+## Configure an SRU Integration Profile
+Configure an SRU Server integration profile. Ensure the following parameters are set:
+- Bibliographic Options
+  - Active
+  - Add Availability
+- Holdings Options
+ - Check all
+
 ## Libguides Quick Start
 
 ### 1. Download the file
@@ -116,17 +124,6 @@ Main Branch Circulating Technology
 5 / 10 
 Available
 ```
-
-## Browser Support
-
-- Chrome 67+
-- Firefox 63+
-- Safari 10.1+
-- Edge 79+
-
-## No Dependencies
-
-Built with vanilla JavaScript. No frameworks or external libraries required.
 
 ## License
 
