@@ -13,7 +13,7 @@ Configure an SRU Server integration profile. Ensure the following parameters are
   - Active
   - Add Availability
 - Holdings Options
- - Check all
+   - Check all
 
 ## Libguides Quick Start
 
