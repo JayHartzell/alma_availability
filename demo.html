@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alma Availability - Live Demo</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .demo-section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .demo-section h2 {
+      margin-top: 0;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .demo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 15px;
+    }
+
+    .custom-1 {
+      --alma-text-color: #1a1a1a;
+      --alma-available-color: #0066cc;
+      --alma-unavailable-color: #ff6600;
+      --alma-border-color: #cccccc;
+    }
+
+    .custom-2 {
+      --alma-text-color: #555;
+      --alma-available-color: #06a77d;
+      --alma-unavailable-color: #c41e3a;
+      --alma-bg-color: #F5F5F5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alma Availability - Live Demo</h1>
+  
+  <p>See <a href="README.md">README.md</a> for full documentation.</p>
+
+  <div class="demo-section">
+    <h2>Live Demo - Test with Your Data</h2>
+    <p><strong>Instructions:</strong> Edit the attributes below with your Alma instance details, then open this file in a browser.</p>
+    <ul>
+      <li><code>base-url</code> - Your Alma base URL (e.g., https://yourInst.alma.exlibrisgroup.com)</li>
+      <li><code>institution-code</code> - Your institution code in Alma</li>
+      <li><code>mms-id</code> - A valid bibliographic record ID</li>
+      <li><code>location-code</code> - A location code from the record</li>
+    </ul>
+    
+    <h3>Default Styling:</h3>
+    <div class="demo-grid">
+      <alma-availability 
+        base-url="https://yourInst.alma.exlibrisgroup.com"
+        institution-code="01CACCL_INST"
+        mms-id="99100001234567891"
+        location-code="main">
+      </alma-availability>
+    </div>
+
+    <h3>Custom Styling Example 1:</h3>
+    <div class="demo-grid">
+      <div class="custom-1">
+        <alma-availability 
+          base-url="https://yourInst.alma.exlibrisgroup.com"
+          institution-code="01CACCL_INST"
+          mms-id="99100001234567891"
+          location-code="main">
+        </alma-availability>
+      </div>
+    </div>
+
+    <h3>Custom Styling Example 2:</h3>
+    <div class="demo-grid">
+      <div class="custom-2">
+        <alma-availability 
+          base-url="https://yourInst.alma.exlibrisgroup.com"
+          institution-code="01CACCL_INST"
+          mms-id="99100001234567891"
+          location-code="main">
+        </alma-availability>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include the component script -->
+  <script src="./dist/alma-availability.js"></script>
+</body>
+</html>
