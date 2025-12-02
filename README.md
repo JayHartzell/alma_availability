@@ -18,7 +18,7 @@ Configure an SRU Server integration profile. Ensure the following parameters are
 ## Libguides Quick Start
 
 ### 1. Download the file
-Download the *alma-availability.js* file and save it somewhere.
+Download the *alma-availability.js* file from the /dist folder and save it somewhere.
 
 ### 2. Upload the customization file
 1. Navigate to *Admin* > *Look & Feel*
