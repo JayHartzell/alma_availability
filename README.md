@@ -258,7 +258,8 @@ Minimum supported versions:
 
 - Verify the `location-code` matches an existing AVA field (subfield 'j')
 - Use the simplified location code, not the full location name
-- Check the example XML to see available location codes
+- Verify that the physical location and holding are not shadowed
+- Construct the query manually using the SRU query format above. Examine the tag='AVA' fields to determine whether the location you want availability from is present in the XML.
 
 ## License
 
